@@ -1,0 +1,4 @@
+- “Kruskal’s algorithm” is an algorithm to construct a “minimum spanning tree” of a “weighted undirected graph”.
+- Bước 1 : sắp xếp các connect theo weight
+- Bước 2 : thêm vào cây nếu không có cycle ( dùng union find để check)
+- khi thêm đến n - 1 bước là xong

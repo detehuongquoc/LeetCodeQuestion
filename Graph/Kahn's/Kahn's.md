@@ -1,0 +1,5 @@
+- Topological sorting dùng sắp sếp thứ tự trong graph và thuật toán Kahn's là 1 trong số đó
+- in-degree là những đỉnh trỏ đến nó,
+- ou-dregree là những đỉnh mà nó trỏ đến
+- cần tìm ra các in-dreegre, nếu tất cả các cạnh có indegree lớn hơn 1 thì graphql là cycle, không hợp lệ
+- bắt từ từ in-dreegree 0 rồi push vào queue, sau đó update lại các in dregree thông qua các out-degree
